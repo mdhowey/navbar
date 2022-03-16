@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,900;1,200&display=swap");
+.container {
+  height: calc(100vh - 60px);
+  background: #f4f4ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container h1 {
+  padding: 1.5rem 2.5rem;
+  background: linear-gradient(220deg, #77eb91, rgba(119, 235, 145, 0.5));
+  border-radius: 12px calc(borderRadius *10);
+}
+/*# sourceMappingURL=Layout.module.css.map */

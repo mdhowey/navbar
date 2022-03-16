@@ -1,0 +1,17 @@
+@import "./../styles/variables.scss";
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .title {
+    margin: $spacing-lg;
+  }
+  .dog {
+    height: auto;
+    width: 30vw;
+    margin-bottom: 6em;
+    border-radius: $borderRadius;
+  }
+}

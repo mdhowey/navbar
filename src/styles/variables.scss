@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,900;1,200&display=swap');
+
+$SourceFont: 'Source Code Pro', monospace;
+
+// colors
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: rgb(119, 235, 145);
+$bg: rgb(244, 244, 255);
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 60px;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    // 768px
+    @media (min-width: 48em) {
+      @content;
+    }
+  }
+}
